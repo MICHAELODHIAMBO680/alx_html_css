@@ -1,0 +1,2 @@
+welcome to my Awesome Website.This project is a demonstration of my skills in Front-end development,featuring a sleek and responsive design.
+The site includes multiple sections such as a hero header,a "what we do section""About section",a contact form and a footer,all styled using modern css techniques
