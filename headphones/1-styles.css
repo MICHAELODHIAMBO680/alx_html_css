@@ -1,0 +1,92 @@
+/*CSS styles for header*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo {
+    width: 0;
+    border: solid;
+    border-width: 50px 29px 0 29px;
+    border-color: #ff6565;
+    position: relative;
+}
+
+header.logo::before{
+    position: absolute;
+    top: -35px;
+    left: -25px;
+    width: 0;
+    border: solid;
+    border-width: 0 58px 35px 58px;
+    border-color: transparent transparent transparent #ff6565 transparent;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a :active {
+    color: #ff6565;
+}
+
+ header,.hero,.mike {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    font-size: 12px;
+    background-image: url("../headphones/headphones_hero_1.jpg");
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.sunset{
+    background-color:white;
+    color: black;
+}
+.sunset p, h3{
+    display: block;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-image:none;
+    size-adjust: 20px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 6%;
+    background-color: white;
+}
+
+
+
+
+
+
+
